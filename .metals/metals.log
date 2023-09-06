@@ -2837,3 +2837,29 @@ INFO: Unsupported notification method: $/setTrace
 2023.09.07 04:45:48 INFO  compiling root (1 scala source)
 2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
 2023.09.07 04:45:48 INFO  time: compiled root in 0.91s
+2023.09.07 04:49:04 INFO  compiling root (1 scala source)
+2023.09.07 04:49:05 INFO  time: compiled root in 1.03s
+2023.09.07 04:49:42 INFO  compiling root (1 scala source)
+2023.09.07 04:49:42 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:49:43 INFO  time: compiled root in 1.48s
+2023.09.07 04:50:24 INFO  compiling root (1 scala source)
+2023.09.07 04:50:24 INFO  time: compiled root in 0.19s
+2023.09.07 04:51:04 INFO  compiling root (1 scala source)
+2023.09.07 04:51:05 INFO  time: compiled root in 1.02s
+2023.09.07 04:51:42 INFO  compiling root (1 scala source)
+2023.09.07 04:51:42 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:51:42 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:51:44 INFO  time: compiled root in 1.8s
+2023.09.07 04:52:50 INFO  compiling root (1 scala source)
+2023.09.07 04:52:50 INFO  time: compiled root in 0.15s
+2023.09.07 04:53:07 INFO  compiling root (1 scala source)
+2023.09.07 04:53:07 INFO  time: compiled root in 0.94s
+2023.09.07 04:53:45 INFO  compiling root (1 scala source)
+2023.09.07 04:53:46 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:53:46 INFO  time: compiled root in 1.02s
+2023.09.07 04:53:46 INFO  compiling root (1 scala source)
+2023.09.07 04:53:46 INFO  time: compiled root in 0.2s
+2023.09.07 04:53:47 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:55:27 INFO  compiling root (8 scala sources and 1 java source)
+2023.09.07 04:55:27 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:55:31 INFO  time: compiled root in 4.18s

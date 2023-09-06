@@ -54,13 +54,14 @@ class PokedexController @Inject()(ws: WSClient, val controllerComponents: Contro
         res => {
           val aaa = (res.asOpt[Pokemon])
           //aaa.map(x=>Pokemon(x.id, x.name, x.abilities))
+          println(Pokemon.listOfPokemonNamesWithDescription)
           Pokemon.listOfPokemonNamesWithDescription += aaa.map(x=>Pokemon(x.id, x.name, x.abilities)).get
           }
         }
+        Redirect(routes.PokedexController.index())
       }
       
       println(Pokemon.listOfPokemonNames.size)
-      println(Pokemon.listOfPokemonNamesWithDescription)
       Redirect(routes.PokedexController.index())
       }
     }
@@ -68,19 +69,7 @@ class PokedexController @Inject()(ws: WSClient, val controllerComponents: Contro
   }
 
 
-  def getPokemonInfo(name: String) = Action.async { implicit request =>
-    val json = ws.url(api+ s"/${name}").get.map{
-      response => (response.json)
-    }
-
-    json.map{
-      res => {
-        val aaa = (res.asOpt[Pokemon])
-        aaa.map(x=>Pokemon(x.id, x.name, x.abilities))
-        Pokemon.listOfPokemonNamesWithDescription += aaa.map(x=>Pokemon(x.id, x.name, x.abilities)).get
-      }
-      Redirect(routes.PokedexController.index())
-      
-    }
+  def getPokemonInfo() = Action { implicit request =>
+    Redirect(routes.PokedexController.index())
   }
 }

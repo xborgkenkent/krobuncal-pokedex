@@ -6,7 +6,7 @@
 # An example controller showing a sample home page
 GET     /                           controllers.PokedexController.index()
 GET     /fetchListOfNames                controllers.PokedexController.fetchListOfNames()
-GET     /getPokemonInfo                controllers.PokedexController.getPokemonInfo(name ?= "")
+GET     /getPokemonInfo                controllers.PokedexController.getPokemonInfo()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
