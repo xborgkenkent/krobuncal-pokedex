@@ -1,0 +1,15 @@
+@(listPokemonNames: List[String], listPokemonNamesWithDescription: List[Pokemon])
+
+@main("Welcome to Play") {
+  <a href="@routes.PokedexController.fetchListOfNames()"><button>fetch items</button></a>
+  <a href="@routes.PokedexController.getPokemonInfo("pikachu")"><button>get info</button></a>
+  @for(name <- listPokemonNames) {
+    <li>@name</li>
+  }
+
+  @for(pokemon <- listPokemonNamesWithDescription) {
+    <li>@pokemon.id</li>
+    <li>@pokemon.name</li>
+    <li>@pokemon.abilities</li>
+  }
+}

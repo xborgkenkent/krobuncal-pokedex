@@ -1,0 +1,17 @@
+id: file://<WORKSPACE>/app/models/Pokemon.scala:[368..369) in Input.VirtualFile("file://<WORKSPACE>/app/models/Pokemon.scala", "package models
+
+case class Pokemon(id: Int, name: String, abilities: List[Abilities], height: Int, moves: List[Moves], types: List[Types], weight: Int)
+
+case class Abilities(ability: List[AbilityItem], is_hidden: Boolean, slot: Int)
+
+case class AbilityItem(name: String)
+
+case class Moves(move: List[MoveItem])
+
+case class MoveItem(name: String)
+
+case class Types(type:)
+")
+file://<WORKSPACE>/app/models/Pokemon.scala:13: error: expected identifier; obtained colon
+case class Types(type:)
+                     ^
