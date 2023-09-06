@@ -53,10 +53,10 @@ class PokedexController @Inject()(ws: WSClient, val controllerComponents: Contro
         jj => jj.map{
         res => {
           val aaa = (res.asOpt[Pokemon])
-          aaa.map(x=>Pokemon(x.id, x.name, x.abilities))
+          //aaa.map(x=>Pokemon(x.id, x.name, x.abilities))
           Pokemon.listOfPokemonNamesWithDescription += aaa.map(x=>Pokemon(x.id, x.name, x.abilities)).get
+          }
         }
-      }
       }
       
       println(Pokemon.listOfPokemonNames.size)
