@@ -2817,3 +2817,23 @@ INFO: Unsupported notification method: $/setTrace
 2023.09.07 04:28:27 INFO  time: compiled root in 1.35s
 2023.09.07 04:33:37 INFO  compiling root (1 scala source)
 2023.09.07 04:33:38 INFO  time: compiled root in 1.61s
+2023.09.07 04:45:37 INFO  compiling root (1 scala source)
+2023.09.07 04:45:37 INFO  time: compiled root in 0.24s
+2023.09.07 04:45:38 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:45 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:46 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:46 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 INFO  compiling root (1 scala source)
+2023.09.07 04:45:48 WARN  Could not load snapshot text for /home/xkenkent/Documents/krobuncal-pokedex/app/controllers/PokedexController.scala
+2023.09.07 04:45:48 INFO  time: compiled root in 0.91s

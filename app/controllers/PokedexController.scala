@@ -41,9 +41,9 @@ class PokedexController @Inject()(ws: WSClient, val controllerComponents: Contro
     }
 
     json.map{
-      x=> { val xxx = ((x.map(a=>a.\\("name"))))
-      val aaa = xxx.map(_.map(_.as[String]))
-      aaa.map(_.map(a=>Pokemon.listOfPokemonNames += a))
+      x=> { val xxx = x.map(a=>a.\\("name")).map(_.map(_.as[String]))
+      //val aaa = xxx.map(_.map(_.as[String]))
+      xxx.map(_.map(a=>Pokemon.listOfPokemonNames += a))
 
       val json1 = Pokemon.listOfPokemonNames.map{name =>ws.url(api+ s"/${name}").get.map{
         response => (response.json)
